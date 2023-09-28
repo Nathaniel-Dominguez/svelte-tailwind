@@ -1,6 +1,7 @@
 <script>
-    import { text } from "svelte/internal";
     import TodoForm from "../components/TodoForm.svelte"
+    import Todo from "../components/Todo.svelte"
+    import {todos} from "../stores/todoStore.js";
 </script>
 
 

@@ -1,5 +1,5 @@
 <script>
-    import {addTodo } from "svelte-tailwind/stores/todoStore.js";
+    import {addTodo} from "../stores/todoStore.js";
     let todo = '';
     const handleSubmit = () => {
         addTodo(todo);
